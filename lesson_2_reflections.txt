@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	To create the .git directory and enable user to perform commit later on. Initially the commit count is zero.
+
+
+Instructor Notes:
+	If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt and the file will be removed from the staging area, but it will still be in your working directory.
+
+
+Useful command
+
+	git init
+	git add <file>
+	git status
+	git reset <file>
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	You add files that are in the working directory into the staging area - these are the files to be tracked by Git.
+	You then do a mass commit to take a snapshot of the entire staging area and add to the Git repository.

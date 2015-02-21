@@ -22,3 +22,17 @@ Describe the differences between forks, clones, and branches. When would you use
 	- clone: cline Github repository A from one Github location to another local location.  (and vice versa)
 	- fork: clone Github repository A from one Github location to another Github location.  (and vice versa)
 
+
+Extra notes...
+
+	Previously when I submit the command..
+	
+		git commit
+
+	It kept giving me the error message... error: There was a problem with the editor.... Please supply the message using either -m or -F option.
+
+	These forums has some useful info
+
+		http://forums.udacity.com/questions/100248013/problem-with-git-commit?page=1&focusedAnswerId=100265946#100265946
+
+		http://apple.stackexchange.com/questions/57672/error-there-was-a-problem-with-the-editor-vi-when-using-it-with-git
